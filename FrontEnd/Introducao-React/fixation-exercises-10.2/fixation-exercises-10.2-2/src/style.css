@@ -11,7 +11,7 @@ article {
   border-radius: 30px;
   margin: 30px;
 }
-article h1, h2, h3 {
+article p, h4 {
   display: flex;
   justify-content: center;
   align-items: center;
