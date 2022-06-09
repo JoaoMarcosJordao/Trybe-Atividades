@@ -6,6 +6,6 @@ const bookController = require('./controllers/bookController')
 
 app.use(express.json());
 
-app.use('/', bookController );
+app.get('/books', bookController.getAllBook );
 
 app.listen(PORT, () => console.log(`Rodando na porta ${PORT}!`))
